@@ -1,0 +1,133 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: hsl(213, 19%, 18%);
+    width: 415px;
+    height: 415px;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.rating-state {
+    position: absolute;
+}
+
+.rating-state .icon-star-image {
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 22%);
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.rating-state .title {
+    margin-bottom: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+.rating-state .text {
+    color: hsl(216, 12%, 54%);
+    margin-bottom: 30px;
+}
+
+.rating-scale {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.rating-scale option {
+    font-weight: 700;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 22%);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: hsl(216, 12%, 54%);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.rating-scale option:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+option.clicked {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.rating-state .btn {
+    width: 355px;
+    padding: 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    border-style: none;
+    letter-spacing: 3px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.rating-state .btn:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you-state {
+    text-align: center;
+    position: absolute;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.thank-you-state .illustration-thank-you {
+    margin-bottom: 30px;
+}
+
+.thank-you-state .client-selection {
+    background-color: hsl(216, 12%, 22%);
+    color: hsl(25, 97%, 53%);
+    padding: 8px;
+    width: 200px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.thank-you-state .thank-you {
+    margin: 35px 0px 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+.thank-you-state .text-thank-you-state {
+    color: hsl(216, 12%, 54%);
+}
+
+.attribution {
+    margin-top: 500px;
+    font-size: 11px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+    color: hsl(25, 97%, 53%);
+}

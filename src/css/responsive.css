@@ -1,0 +1,46 @@
+@media (max-width: 414px) {
+    .card {
+        width: 380px;
+        border-radius: 20px;
+    }
+
+    .rating-scale option {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .rating-state .btn {
+        width: 325px;
+    }
+}
+
+@media (max-width: 384px) {
+    .card {
+        width: 360px;
+    }
+
+    .rating-state .btn {
+        width: 300px;
+    }
+}
+
+@media (max-width: 360px) {
+    .card {
+        width: 320px;
+    }
+
+    .rating-state .btn {
+        width: 260px;
+    }
+}
+
+@media (max-width: 320px) {
+    .card {
+        width: 300px;
+    }
+
+    .rating-state .btn {
+        width: 240px;
+    }
+}
